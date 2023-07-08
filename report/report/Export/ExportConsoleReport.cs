@@ -1,6 +1,6 @@
 namespace report;
 
-static class ConsoleReport
+static class ExportConsoleReport
 {
     public static void PrintCategories(List<Category> categories)
     {

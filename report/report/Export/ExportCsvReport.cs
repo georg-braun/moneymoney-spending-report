@@ -2,7 +2,7 @@ using System.Text;
 
 namespace report;
 
-static class CsvReport
+static class ExportCsvReport
 {
     public static async Task WriteAsync(List<Category> categories, string filepath, IEnumerable<int> years)
     {
